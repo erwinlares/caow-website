@@ -3,10 +3,11 @@ project:
   output-dir: _site
 
 website:
-  title: "Capital Aikikai of Wisconsin"
+  title: "Capital Aikikai<br>of Wisconsin"
   favicon: assets/images/favicon.png
 
   navbar:
+    logo: "assets/images/caow-logo-transparent-bg.png"
     left:
       - text: "Our Classes"
         href: our-classes/index.qmd

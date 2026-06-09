@@ -52,6 +52,20 @@ $line-height-base:         1.7;
   letter-spacing: 0.02em;
 }
 
+.navbar-title {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+// Logo sizing — targets the exact classes Quarto renders
+// Quarto inserts two copies: .navbar-logo.light-content and .navbar-logo.dark-content
+.navbar-brand-container img.navbar-logo {
+  height: 250px !important;
+  width: auto !important;
+  max-height: 250px !important;
+  min-height: 0 !important;
+}
+
 // ── CTA button ────────────────────────────────────────────────────────────────
 .btn-cta {
   display: inline-block;
