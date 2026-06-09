@@ -24,8 +24,6 @@ website:
       - text: "About"
         href: about/index.qmd
 
-  body-footer: "_partials/footer.html"
-
 format:
   html:
     theme: [cosmo, assets/css/custom.scss]
@@ -36,3 +34,4 @@ format:
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    include-after-body: "_partials/footer.html"

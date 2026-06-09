@@ -169,9 +169,10 @@ $line-height-base:         1.7;
   }
 }
 
+// about column is wider than location and contact columns
 .ca-footer-inner {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;   // about column is wider
+  grid-template-columns: 2fr 1fr 1fr;
   gap: 3rem;
   max-width: 960px;
   margin: 0 auto;

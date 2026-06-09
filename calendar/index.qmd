@@ -1,10 +1,20 @@
 ---
 title: "Calendar"
-listing:
-  contents: "../events/*.qmd"
-  type: table
-  sort: "date asc"
-  fields: [date, title, description]
-  exclude:
-    filename: "index.qmd"
 ---
+
+::: {.page-content}
+The calendar below shows Aikido events in the Wisconsin area, including
+seminars, gasshuku, and open mat sessions hosted by dojos across the
+Capital Aikido Federation. Click any event for details.
+
+```{=html}
+<iframe
+  src="https://calendar.google.com/calendar/embed?src=c_ed4c80ef059f8ee2ac0ba90e2fcab9cfc815431d57de06964501c24c13acccce%40group.calendar.google.com&ctz=America%2FChicago"
+  style="border: 0"
+  width="100%"
+  height="640"
+  frameborder="0"
+  scrolling="no">
+</iframe>
+```
+:::
