@@ -1,0 +1,10 @@
+---
+title: "Events"
+listing:
+  contents: "*.qmd"
+  type: default
+  sort: "date desc"
+  fields: [date, title, description]
+  exclude:
+    filename: "index.qmd"
+---

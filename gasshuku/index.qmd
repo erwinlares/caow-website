@@ -1,0 +1,7 @@
+---
+title: "Gasshuku"
+---
+
+::: {.page-content}
+*Content coming soon.*
+:::

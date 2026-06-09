@@ -1,0 +1,10 @@
+---
+title: "Calendar"
+listing:
+  contents: "../events/*.qmd"
+  type: table
+  sort: "date asc"
+  fields: [date, title, description]
+  exclude:
+    filename: "index.qmd"
+---

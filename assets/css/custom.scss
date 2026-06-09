@@ -1,0 +1,216 @@
+/*-- Capital Aikikai of Wisconsin — custom.scss --*/
+
+/*
+  Palette:
+  --ca-gray-light:   #d6d6d6   page background
+  --ca-gray-mid:     #c8c8c8   navbar
+  --ca-gray-footer:  #d0cfc9   footer (warm undertone)
+  --ca-text:         #1a1a1a   body text
+  --ca-heading:      #2c2c2c   headings
+  --ca-orange:       #e8622a   CTA / accent
+  --ca-link:         #c06030   body links
+*/
+
+// ── Bootstrap variable overrides ─────────────────────────────────────────────
+
+$body-bg:                  #d6d6d6;
+$body-color:               #1a1a1a;
+$headings-color:           #2c2c2c;
+$link-color:               #c06030;
+$link-hover-color:         #e8622a;
+
+$navbar-bg:                #c8c8c8;
+$navbar-fg:                #1a1a1a;
+$navbar-hl:                #e8622a;
+
+$headings-font-family:     'Raleway', sans-serif;
+$font-family-sans-serif:   'Lato', sans-serif;
+$font-size-base:           1rem;
+$line-height-base:         1.7;
+
+/*-- scss:rules --*/
+
+// ── CSS custom properties ─────────────────────────────────────────────────────
+:root {
+  --ca-gray-light:  #d6d6d6;
+  --ca-gray-mid:    #c8c8c8;
+  --ca-gray-footer: #d0cfc9;
+  --ca-text:        #1a1a1a;
+  --ca-heading:     #2c2c2c;
+  --ca-orange:      #e8622a;
+  --ca-link:        #c06030;
+}
+
+// ── Navbar ────────────────────────────────────────────────────────────────────
+.navbar {
+  border-bottom: 1px solid #b8b8b8;
+}
+
+.navbar-brand {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+// ── CTA button ────────────────────────────────────────────────────────────────
+.btn-cta {
+  display: inline-block;
+  background-color: var(--ca-orange);
+  color: #fff;
+  padding: 0.65rem 1.5rem;
+  border-radius: 2px;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: #c04e1a;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+// ── Hero ──────────────────────────────────────────────────────────────────────
+.hero {
+  text-align: center;
+  padding: 6rem 1rem 4rem;
+
+  h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: 400;
+    line-height: 1.2;
+    color: var(--ca-heading);
+    margin-bottom: 1rem;
+  }
+
+  p {
+    max-width: 480px;
+    margin: 0 auto 2rem;
+    color: #444;
+  }
+}
+
+// ── Two-column intro block ────────────────────────────────────────────────────
+.intro-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+// ── Photo strip ───────────────────────────────────────────────────────────────
+// Zero gap, slightly portrait ratio, full bleed across the content column.
+.photo-strip {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  margin: 3rem 0 0;
+
+  @media (max-width: 600px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  img {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+// ── Footer ────────────────────────────────────────────────────────────────────
+.ca-footer {
+  background-color: var(--ca-gray-footer);
+  border-top: 1px solid #b8b8b8;
+  padding: 3rem 1rem 2rem;
+  font-size: 0.82rem;
+  color: #444;
+  font-family: 'Lato', sans-serif;
+
+  a {
+    color: var(--ca-link);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--ca-orange);
+    }
+  }
+}
+
+.ca-footer-inner {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;   // about column is wider
+  gap: 3rem;
+  max-width: 960px;
+  margin: 0 auto;
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+.ca-footer-col h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--ca-heading);
+  margin-bottom: 0.75rem;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.ca-footer-col p {
+  margin-bottom: 0.6rem;
+  line-height: 1.6;
+}
+
+.ca-footer-social {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+
+  a {
+    color: #555;
+    line-height: 1;
+
+    &:hover {
+      color: var(--ca-orange);
+    }
+  }
+
+  svg {
+    display: block;
+  }
+}
+
+// ── Listing pages ─────────────────────────────────────────────────────────────
+.quarto-listing {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+// ── Generic page content ──────────────────────────────────────────────────────
+.page-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+}

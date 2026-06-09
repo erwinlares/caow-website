@@ -1,0 +1,15 @@
+/* Capital Aikikai of Wisconsin — styles.css
+   Supplemental rules that sit outside the SCSS/Bootstrap pipeline.
+   Keep this file for one-off overrides; prefer custom.scss for anything
+   that needs SCSS variables or nesting.                                  */
+
+/* Remove default max-width constraint Quarto applies to page body */
+.page-columns > .content {
+  max-width: 100%;
+}
+
+/* Ensure images never overflow on narrow screens */
+img {
+  max-width: 100%;
+  height: auto;
+}

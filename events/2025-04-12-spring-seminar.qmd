@@ -1,0 +1,8 @@
+---
+title: "Spring Seminar 2025"
+date: 2025-04-12
+description: "Annual spring seminar with guest instructors from the Capital Aikido Federation."
+categories: [seminar]
+---
+
+Details about the spring seminar go here.

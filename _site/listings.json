@@ -1,0 +1,20 @@
+[
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/2025-01-01-welcome.html"
+    ]
+  },
+  {
+    "listing": "/calendar/index.html",
+    "items": [
+      "/events/2025-04-12-spring-seminar.html"
+    ]
+  },
+  {
+    "listing": "/events/index.html",
+    "items": [
+      "/events/2025-04-12-spring-seminar.html"
+    ]
+  }
+]

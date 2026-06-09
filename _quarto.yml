@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Capital Aikikai of Wisconsin"
+  favicon: assets/images/favicon.png
+
+  navbar:
+    left:
+      - text: "Our Classes"
+        href: our-classes/index.qmd
+      - text: "Student Resources"
+        href: student-resources/index.qmd
+      - text: "Events"
+        href: events/index.qmd
+      - text: "Blog"
+        href: blog/index.qmd
+      - text: "Gasshuku"
+        href: gasshuku/index.qmd
+      - text: "Calendar"
+        href: calendar/index.qmd
+      - text: "About"
+        href: about/index.qmd
+
+  body-footer: "_partials/footer.html"
+
+format:
+  html:
+    theme: [cosmo, assets/css/custom.scss]
+    css: assets/css/styles.css
+    toc: false
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
