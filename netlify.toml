@@ -1,5 +1,5 @@
 [build]
-  command   = "quarto render"
+  command   = "wget -qO- https://github.com/quarto-dev/quarto-cli/releases/download/v${QUARTO_VERSION}/quarto-${QUARTO_VERSION}-linux-amd64.tar.gz | tar -xz -C /opt && export PATH=/opt/quarto-${QUARTO_VERSION}/bin:$PATH && quarto render"
   publish   = "_site"
 
 [build.environment]
