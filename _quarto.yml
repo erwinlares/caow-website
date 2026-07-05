@@ -5,6 +5,7 @@ project:
 website:
   title: "Capital Aikikai<br>of Wisconsin"
   favicon: assets/images/favicon.png
+  page-navigation: true
 
   navbar:
     logo: "assets/images/caow-logo-transparent-bg.png"

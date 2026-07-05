@@ -1,0 +1,50 @@
+---
+title: "Buildout Week 1"
+subtitle: ""
+description: "My thougths as we started to build the dojo"
+image: "IMG_1164-thumb.png"
+author:
+- name: Erwin Lares
+date: 2025-06-29
+date-modified: last-modified
+categories:
+  - aikido
+  - announcements
+  - community
+  - personal
+status: published
+format:
+  html:
+    include-before-body: "../../_partials/blog-nav.html"
+---
+
+#### We were busy this week!
+
+We purchased a ton of lumber to build two changing rooms, one office, and one storage closet. We also picked up several sheets of drywall, a bucket of nails, screws, and flooring for the parts of the dojo not covered by mats.
+
+We purchased a moisture barrier to place between the bare concrete floor and the mats, along with padding foam. A monkey wrench was thrown our way when we discovered that the mats I purchased a year ago didn’t quite match the ones we inherited from Aikido of Harvard. Fortunately, a 1/4” plywood board is all we need to ensure the mats sit flush against each other.
+
+After a week of work, we’ve raised the frames for the two changing rooms, the office, and the storage closet. We’ve also hung enough drywall to make the changing rooms usable. We’re aiming to hold informal class in our new space tomorrow evening!
+
+Things left to do:
+• Hang the remaining drywall on the outside of the changing rooms and office
+
+• Install the flooring
+
+• Lay the moisture barrier, plywood (where needed), padding, and mats
+
+• Build the L-shaped wooden brace to keep the mats from shifting
+
+Please enjoy the pictures of our space and wish us luck. We are going to need it!
+
+::: {.photo-grid}
+![Our changing rooms-to-be, photo 3](IMG_1161.png){.lightbox group="buildout-week-1"}
+
+![Drywall panels, photo 3](IMG_1162.png){.lightbox group="buildout-week-1"}
+![Flooring, photo 4](IMG_1163.png){.lightbox group="buildout-week-1"}
+![Hanging drywall, photo 5](IMG_1165.png){.lightbox group="buildout-week-1"}
+![Adding flooring, photo 6](IMG_1167.png){.lightbox group="buildout-week-1"}
+![Join the new changing to the existing restroom, photo 6](IMG_1171.png){.lightbox group="buildout-week-1"}
+
+:::
+

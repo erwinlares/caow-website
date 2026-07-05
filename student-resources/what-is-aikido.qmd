@@ -1,0 +1,19 @@
+---
+title: "What is Aikido?"
+date: "2026-07-25"
+author: "Erwin Lares"
+search: false
+---
+
+Aikido is a Japanese martial art and self-defense system that focuses on blending with an attacker's movement to redirect their force and bring peaceful resolutions to conflict. Aikido practitioners use techniques such as joint locks, throws, strikes, and pins to neutralize an attacker, while also emphasizing mental calm and body control. The goal of Aikido is to subdue an attacker without inflicting injury, and to improve one's character through reconciliation, harmony, cooperation, and empathy.
+
+Aikido was created in the 1920s by Morihei Ueshiba, who believed that the principles of aikido could be applied to all challenges in life. Aikido training is non-competitive and can be practiced by people of all ages and physical fitness levels, and includes teaching methods such as meditation, breathing, centering, and systematic training in non-violent self-defense techniques. Aikido also often includes training in traditional Japanese weapons such as sword, staff, and knife.
+
+Aikido practice is usually conducted on a matted area, such as a dojo, and participants wear judo or karate uniforms called *gi*.
+
+```{=html}
+<nav class="sr-subnav">
+  <a href="index.html">← Back to Resources</a>
+  <a href="basic-terminology.html">Basic Terminology →</a>
+</nav>
+```

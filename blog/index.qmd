@@ -1,10 +1,14 @@
 ---
 title: "Blog"
 listing:
-  contents: "*.qmd"
-  type: default
+  contents: "."
+  type: grid
   sort: "date desc"
-  fields: [date, title, description]
-  exclude:
-    filename: "index.qmd"
+  categories: true
+  date-format: "MMMM D, YYYY"
+  fields: [image, date, title, description, categories]
+  grid-columns: 3
+  image-height: "200px"
+page-layout: full
+title-block-banner: false
 ---

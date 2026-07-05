@@ -1,0 +1,29 @@
+---
+title: "First Trip to Japan"
+description: "Visiting "
+image: "unsplash-image-NYyCqdBOKwc.png"
+author:
+- name: Erwin Lares
+date: 2024-08-10
+date-modified: last-modified
+categories:
+  - aikido
+  - announcements
+  - personal
+status: published
+format:
+  html:
+    include-before-body: "../../_partials/blog-nav.html"
+---
+
+I have been fortunate to train under a instructor who travels often. Leonard sensei has traveled to train in Japan ever since his own instructor, Akira Tohei sensei passed away in 1999. Over the years, Leonard sensei has forged a wonderful relationship with Funakoshi sensei in Yamagata. 
+
+This year I finally had the opportunity to join Leonard sensei on one of his trips. It’s hard to describe how transformational this trip has been for me. But’s here are some of the things that made this trip so memorable for me.
+
+I had a superb group to travel with, all people who are accomplished aikidoists and whom I admire and follow. And I got to be their traveling partner! I had the rare opportunity to see how they conduct on and off the mat in a variety of circumstances. We trained, ate, and philosophize together for 2 weeks. I will treasure those memories forever. 
+
+I got to meet Funakoshi sensei, his family, and his students. I can honestly say I haven’t met more gracious hosts. Everyone went above and beyond with their efforts to make us feel welcome. 
+
+The training was arduous. I normally train twice a week. In Yamagata we did aikido four hours a day! Two hours in the morning and two in the evening. After the first class, Funakoshi sensei used Brandon and I exclusively as ukes as he demonstrated. I feel I learned so much in such a short period of time. The attention to technique and the change to train with so many highly-trained individuals pushed my aikido to its limits. 
+
+ At the end of the first week, we traveled to Tokyo where Hombu Dojo, the aikido world headquarters are. The atmosphere was less familiar and casual. Everything felt very structured and organized with very little room to be spontaneous. I feel like that is to be expected; Hombu Dojo is, after all, the model dojo for what we all envisioned aikido to be. At Hombu Dojo I attended Waka sensei’s class. I also did Seki sensei’s, and Kobayashi sensei’s.  

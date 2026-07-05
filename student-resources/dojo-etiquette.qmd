@@ -1,0 +1,34 @@
+---
+title: "Dojo Etiquette"
+date: "2026-07-25"
+author: "Erwin Lares"
+search: false
+---
+
+## Entering and Leaving
+
+Bow to the shomen when entering and leaving the dojo. You may also bow when stepping on or off the mat.
+
+## Before Class
+
+Bow to the shomen while kneeling, then sit with your fellow students.
+
+## During Class
+
+Sit quietly and out of the way when the instructor is demonstrating. Avoid talking or walking around. If you need to leave the mat or the dojo, ask the instructor first.
+
+## At the End of Class
+
+Bow to the instructor and say *dōmo arigatō gozaimashita* — "thank you very much." It is customary to also bow to the other students you trained with.
+
+## Other Etiquette
+
+Be on time for class and help with setup. Remove your shoes, jewelry, and watches before practicing. Keep your nails short and your feet clean. Do not eat, drink, smoke, or chew gum on or near the mat. Keep your *gi* clean and mended, and cover any open wounds with medical tape.
+
+```{=html}
+<nav class="sr-subnav">
+  <a href="basic-terminology.html">← Basic Terminology</a>
+  <a href="index.html">Back to Resources</a>
+  <a href="commonly-asked-questions.html">Commonly Asked Questions →</a>
+</nav>
+```

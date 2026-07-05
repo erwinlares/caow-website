@@ -1,0 +1,133 @@
+---
+title: "Basic Terminology"
+date: "2026-07-25"
+author: "Erwin Lares"
+search: false
+---
+
+## Numbers in Japanese
+
+| Number | Japanese |
+|--------|----------|
+| 1 | ichi |
+| 2 | ni |
+| 3 | san |
+| 4 | shi / yon |
+| 5 | go |
+| 6 | roku |
+| 7 | shichi / nana |
+| 8 | hachi |
+| 9 | kyu / ku |
+| 10 | juu |
+
+## Attacks
+
+### Strikes (*uchi* / *tsuki*)
+
+- **shomen uchi** — vertical strike to the head
+- **yokomen uchi** — diagonal strike to the head or neck
+- **tsuki** — punch
+- **geri / keri** — kick
+- **jōdan** — upper level (head / neck)
+- **chūdan** — middle level (torso / chest / abdomen)
+- **gedan** — lower level (groin / legs)
+
+### Grabs (*tori* / *dori*)
+
+- **katate dori** — wrist grab
+- **ryōte dori** — both hands grab both wrists
+- **morote dori** — both hands grab one wrist
+- **kata tori** — shoulder grab
+- **mune dori** — grab of the chest or lapel
+- **ushiro ryōte dori** — grab both wrists from behind
+- **ushiro eri dori** — grab the collar from behind
+- **ushiro kubi shime** — choke or strangle from behind
+
+## Techniques
+
+- **irimi nage** — entering throw
+- **kote gaeshi** — wrist turn-out
+- **koshi nage** — hip throw
+- **nage waza** — throwing techniques
+- **kaeshi waza** — counter techniques
+- **katame waza** — pinning techniques
+- **uchi waza** — striking techniques
+- **sumi otoshi** — corner throw (back corner)
+- **kaiten otoshi** — corner throw (above the shoulder)
+- **maki otoshi** — corner throw (front corner)
+
+## Movements & Positions
+
+- **hanmi** — stance
+  - **ai hanmi** — same foot forward
+  - **gyaku hanmi** — opposite foot forward (mirror image stance)
+  - **hidari hanmi** — left foot forward
+  - **migi hanmi** — right foot forward
+- **maai** — distance
+- **tai sabaki** — body movement
+- **irimi** — entering movement
+- **tenkan** — pivot
+- **suwari waza** — sitting techniques
+
+## Body Parts
+
+- **men** — head
+- **kubi** — neck
+- **kata** — shoulder
+- **koshi** — hips
+- **ashi** — leg or foot
+- **mune** — chest
+- **te** — hand
+- **kote / kubite** — wrist
+- **hiji** — elbow
+
+## Dojo & Etiquette
+
+- **dojo** — martial arts school
+- **gi** — uniform
+- **hakama** — formal pleated trousers worn over the gi
+- **kamiza / shomen** — the center of the dojo, typically marked by a scroll or a photograph of O-sensei
+- **rei** — bow
+- **seiza** — formal kneeling posture
+- **shikko** — knee walking
+
+## People & Roles
+
+- **sensei** — teacher / instructor
+- **sempai** — senior student
+- **kohai** — junior student
+- **nage / tori** — the defender
+- **uke** — the attacker
+- **O-sensei / kaiso-sensei** — honorific titles of Morihei Ueshiba
+- **yudansha** — black belt rank holder
+- **kyudansha** — student below black belt level
+
+## Useful Phrases
+
+- **hai** — yes
+- **iie** — no
+- **dōmo** — thank you (informal)
+- **arigatō** — thank you (casual)
+- **arigatō gozaimasu** — thank you (formal, used during practice)
+- **arigatō gozaimashita** — thank you (formal, said after practice)
+- **onegai shimasu** — please (used before practice; roughly, "please train with me")
+- **yame** — stop
+- **hajime** — begin / start
+- **tatte** — stand up
+- **suwatte** — sit down
+- **kudasai** — please (polite request; e.g., *suwatte kudasai* = "please sit down")
+- **otsukaresama deshita** — said at the end of practice; roughly, "thank you for your hard work" or "good job today"
+
+## Weapons
+
+- **bokken** — wooden sword
+- **jo** — short staff
+- **tanto** — knife
+
+```{=html}
+<nav class="sr-subnav">
+  <a href="what-is-aikido.html">← What is Aikido?</a>
+  <a href="index.html">Back to Resources</a>
+  <a href="dojo-etiquette.html">Dojo Etiquette →</a>
+</nav>
+```

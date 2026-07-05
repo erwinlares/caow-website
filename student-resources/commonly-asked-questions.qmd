@@ -1,0 +1,95 @@
+---
+title: "Commonly Asked Questions"
+date: "2026-07-25"
+author: "Erwin Lares"
+search: false
+---
+
+**What does the word aikido mean?**
+
+The most accepted translation is "Way of peace and harmony."
+
+---
+
+**Who can practice aikido?**
+
+Aikido is available to almost anyone who wants to learn it, including people who are short, tall, clumsy, not particularly athletic, or completely new to martial arts.
+
+---
+
+**How often should I practice?**
+
+Your training frequency should be responsive to your goals, health, and other time commitments. Some of our members train just one or two hours per week, while others attend nearly every class. A good pace for a beginner is to aim for three or four hours per week for the first month, then evaluate whether to increase or decrease from there. All else being equal, more frequent training will help you learn more quickly.
+
+---
+
+**Is aikido safe?**
+
+Like any physical practice, aikido carries an inherent risk of injury. However, many practitioners find that they experience fewer fearful and hostile situations after a short time on the mat. Instructors and students train in adapting to the level of their partners in order to minimize risk.
+
+---
+
+**What is the significance of bowing in aikido?**
+
+Bowing is a Japanese practice that acknowledges and respects training partners, teachers, and the memory of O-sensei. It is also an inherent part of Japanese social culture, similar to shaking hands in Western society.
+
+---
+
+**What is the formal attire for aikido?**
+
+Students train wearing a white or off-white uniform called a *gi*, which consists of a jacket top and a pair of pants. Yudansha — black belt holders — typically also wear *hakama*, which are traditionally black or dark blue.
+
+---
+
+**I'm nervous.**
+
+That's not a question! It's completely natural to feel nervous when stepping into a new practice in a new space, and no one will hold it against you. Just bring humility, eagerness to learn, and a willingness to try something new, and you'll be fine.
+
+---
+
+**Do I have to fall and roll?**
+
+Falling and rolling are two of the most fundamental skills in aikido, but we don't expect you to pick them up right away. You will learn these skills safely, at your own pace, with guidance from instructors and senior students along the way.
+
+---
+
+**Do you offer free trial classes?**
+
+We do not offer free trial classes. We encourage you to observe as many classes as you like at no charge, and to speak with instructors and students afterward to learn about their experiences. To arrange a visit, just send us a message.
+
+---
+
+**What equipment do I need?**
+
+For your first classes, comfortable sweatpants and a t-shirt you don't mind roughing up are all you need. As your practice develops, you'll want a *gi* — a practice uniform — sturdy enough to withstand repeated grabs and throws. That means either an Aikido/Judo-style rice-grain weave or a heavy canvas karate-style gi. You can purchase an affordable uniform following [this link](#).
+
+---
+
+**How do I show respect within the dojo?**
+
+We maintain some practices of traditional Japanese etiquette as a way to honor the spirit of practice and our teachers past and present. As long as you make an earnest effort, no one will be offended if you forget a point here and there. When in doubt, it is never wrong to sit in *seiza* and bow.
+
+---
+
+**Are classes tailored to beginners or advanced students?**
+
+Classes at Capital Aikikai of Wisconsin adapt to whoever is on the mat that day. You will not be asked to do something beyond your ability.
+
+---
+
+**Is aikido practical self-defense?**
+
+A skilled aikidoist can defend themselves from one or more — possibly armed — attackers. That said, if self-defense is your primary goal, there may be faster paths to it. Jiu-jitsu and krav maga are both highly focused on practical self-defense techniques and may be a better match for those seeking street self-defense training specifically.
+
+---
+
+**Do you offer a children's class?**
+
+We do not offer a children's class at this time, but we are actively looking into it. Let us know if you are interested — your input helps us prioritize!
+
+```{=html}
+<nav class="sr-subnav">
+  <a href="dojo-etiquette.html">← Dojo Etiquette</a>
+  <a href="index.html">Back to Resources</a>
+</nav>
+```

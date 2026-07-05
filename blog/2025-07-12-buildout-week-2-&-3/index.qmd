@@ -1,0 +1,38 @@
+---
+title: "Buildout Week 2 & 3"
+subtitle: ""
+description: "One or two sentences."
+image: "IMG_1198-thumb.png"
+author:
+- name: Erwin Lares
+date: 2025-07-12
+date-modified: last-modified
+categories:
+  - aikido
+  - announcements
+  - community
+  - personal
+status: published
+format:
+  html:
+    include-before-body: "../../_partials/blog-nav.html"
+---
+
+#### We continue to be busy!
+
+We raised the frames for the changing rooms, office, and storage room next to the mat area. Much of the drywall is up, though there’s still plenty of work left to do.
+
+We purchased eight rolls of carpet padding and laid them across the entire mat space. After settling on a pattern for our three mat colors, we placed the mats down and even held a few informal classes in the new space. Taking ukemi on these mats feels like falling on feathers!
+
+One of the things I’ve enjoyed most is the temporary shomen we set up. It’s a simple woven carpet made of natural fibers, but what makes it so special to me is its history—it served as the focal point of the shomen at Aikido of Harvard for nearly 25 years and now it has been entrusted to me. I hope it watches over our practice for another 25 years.
+
+::: {.photo-grid}
+![Drywalls looking good!, photo 1](IMG_1160.png){.lightbox group="post-slug"}
+![Drywalls looking better, photo 2](IMG_1170.png){.lightbox group="post-slug"}
+![Aikido of Harvard lives!, photo 3](IMG_1194.png){.lightbox group="post-slug"}
+![We have a dojo!, photo 4](IMG_1198.png){.lightbox group="post-slug"}
+![Treasures from Aikido of Harvard, photo 5](IMG_1572.png){.lightbox group="post-slug"}
+:::
+
+
+

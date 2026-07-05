@@ -1,0 +1,44 @@
+---
+title: "Friendship Seminar with Lynn Litterer Sensei"
+subtitle: ""
+description: "Friendship seminars are a wonderful initiative to cross pollinate and strengthen relationship among dojos"
+image: "friendship-seminar-lynn-litterer-sensei-thumb.png"
+author:
+- name: Erwin Lares
+date: 2025-11-10
+event-date: 2025-12-18
+date-modified: last-modified
+categories:
+  - friendship
+  - seminar
+status: published
+format:
+  html:
+    include-before-body: "../../_partials/events-nav.html"
+---
+
+## Training together, learning together
+Ever wish you could see aikido through someone else’s eyes? That’s what a Friendship Seminar offers—a chance to step onto the mat with people from other dojos, feel a new rhythm, and discover fresh ways of moving together. These seminars are informal and welcoming. You don’t have to be an advanced student or know the hosting dojo’s style. You just show up, train, and experience aikido from a slightly different angle. Every dojo has its own “dialect” of aikido, and trying another one can spark insights you didn’t expect—about timing, balance, and even how you learn.
+
+They’re also a great way to meet others who love aikido as much as you do. You’ll partner with new people, share stories between rounds, and leave with the quiet satisfaction that comes from training hard and learning something new.
+
+Capital Aikikai of Wisconsin is excited to join this Midwest tradition by hosting our first-ever Friendship Seminar, led by Lynn Litterer Sensei from Aikido of Madison.
+
+## About Litterer Sensei
+Lynn has been a dedicated aikido student for over forty years, beginning her practice at the University of Minnesota in 1981. She trained under Jim Bergseth Sensei at the Twin Cities Aikido Center and Patrick Riley Sensei at the university, attending seminars with members of the Midwest Aikido Federation under Akira Tohei Sensei.
+
+After Tohei Sensei’s passing, she continued her training with Zenko Okimura Sensei. Since moving to Madison in 2005, Lynn has trained with Robin Cooper Sensei and John Stone Sensei, remaining active in seminars to engage with the broader aikido community and deepen her understanding of the art.
+
+She brings a calm, centered approach to movement—grounded in decades of practice and a spirit of openness that fits perfectly with the friendship seminar tradition.
+
+## Join Us
+**When**: Thursday, December 18, 6:00 pm
+**Where**: Capital Aikikai of Wisconsin 4712 S John Paul Rd. Milton, WI
+**Who**: All levels welcome—students, visitors, and curious newcomers
+**What to bring**: Gi and good ukemi; come ready to train and connect. If you don't own a gi, you can wear sweatpants and a t-shirt you won't mind if it tears.
+**How much**: No donation is required, and none are refused.
+
+Come train, meet new friends, and see how many ways aikido can express the same harmony.
+Whether you’ve been practicing for months or decades, we hope you’ll take something meaningful home from the mat.
+
+![Friendship Seminar with Litterer sensei](friendship-seminar-lynn-litterer-sensei.png)

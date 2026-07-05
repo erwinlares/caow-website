@@ -1,8 +1,0 @@
----
-title: "Welcome to the new website"
-date: 2025-01-01
-description: "A note on where to find everything as we settle into the new site."
-categories: [news]
----
-
-Welcome post content goes here.

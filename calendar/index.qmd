@@ -3,9 +3,7 @@ title: "Calendar"
 ---
 
 ::: {.page-content}
-The calendar below shows Aikido events in the Wisconsin area, including
-seminars, gasshuku, and open mat sessions hosted by dojos across the
-Capital Aikido Federation. Click any event for details.
+This calendar is hosted by Capital Aikikai of Wisconsin as a shared effort to promote and bring visibility to aikido events across the Midwest, including seminars, gasshuku, and open mat sessions hosted by member dojos. It's open to the general public to view. Publishing rights are reserved for dojo-cho and event organizers; if you'd like to be added as an editor, email us at info@aikidoofwisconsin.com. Click any event for details.
 
 ```{=html}
 <iframe

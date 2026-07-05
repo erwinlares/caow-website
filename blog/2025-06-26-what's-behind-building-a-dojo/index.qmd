@@ -1,0 +1,24 @@
+---
+title: "What's Behind Building a Dojo"
+description: "Thoughts about a dojo"
+author:
+- name: Erwin Lares
+date: 2025-06-26
+date-modified: last-modified
+categories:
+  - aikido
+  - community
+  - personal
+status: published
+format:
+  html:
+    include-before-body: "../../_partials/blog-nav.html"
+---
+
+I'll confess, I am still pinching myself to make sure I am not dreaming.
+
+It feels unreal to have the opportunity to open a dojo and bring Aikido to the community where I have lived for more than a decade now. A couple of years ago, a friend asked me, "What is your dream?" I reflexively replied - "I would love to be able to have a place that was one half a dojo and the other half a pottery".
+
+I didn't realize the idea of a dojo was already churning in the back of my mind. I have been practicing Aikido for a while now and two things were starting to become evident. I needed more days of training
+
+Aikido of Harvard closing its doors just precipitated this. 

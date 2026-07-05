@@ -1,10 +1,14 @@
 ---
 title: "Events"
 listing:
-  contents: "*.qmd"
-  type: default
-  sort: "date desc"
-  fields: [date, title, description]
-  exclude:
-    filename: "index.qmd"
+  contents: "."
+  type: grid
+  sort: "event-date desc"
+  categories: true
+  date-format: "MMMM D, YYYY"
+  fields: [image, event-date, title, description, categories]
+  grid-columns: 3
+  image-height: "200px"
+page-layout: full
+title-block-banner: false
 ---

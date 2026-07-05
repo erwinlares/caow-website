@@ -1,7 +1,49 @@
 ---
 title: "Student Resources"
+search: false
 ---
 
-::: {.page-content}
-*Content coming soon.*
-:::
+```{=html}
+<div class="resources-grid">
+  <div class="resource-card">
+    <h2><a href="what-is-aikido.html">What is Aikido?</a></h2>
+    <a class="read-more" href="what-is-aikido.html">Read More</a>
+  </div>
+  <div class="resource-card">
+    <h2><a href="basic-terminology.html">Basic Terminology</a></h2>
+    <a class="read-more" href="basic-terminology.html">Read More</a>
+  </div>
+  <div class="resource-card">
+    <h2><a href="dojo-etiquette.html">Dojo Etiquette</a></h2>
+    <a class="read-more" href="dojo-etiquette.html">Read More</a>
+  </div>
+  <div class="resource-card">
+    <h2><a href="commonly-asked-questions.html">Commonly Asked Questions</a></h2>
+    <a class="read-more" href="commonly-asked-questions.html">Read More</a>
+  </div>
+</div>
+```
+
+---
+
+## Membership Dues
+
+```{=html}
+<div class="membership-section">
+  <div class="membership-icon">
+    <img src="../assets/images/membership-icon.png" alt="Membership icon" />
+  </div>
+  <div class="membership-text">
+    <p>Monthly dues of <strong>$85</strong> keep our dojo running and Aikido thriving in Janesville. They cover essentials like rent, utilities, and insurance so we can maintain a safe, welcoming place for practice. Every dollar goes directly back into the dojo.</p>
+    <p>We want Aikido to be accessible to everyone. If dues are ever a barrier, please talk with us. As a nonprofit, volunteer-run dojo, your support helps us keep rates fair, offer assistance when needed, and host events that share Aikido with the wider community.</p>
+    <p>Together, we sustain a space where students of all levels can grow in balance, discipline, and peaceful conflict resolution — on and off the mat.</p>
+    <h3>Membership dues at a glance</h3>
+    <ul>
+      <li><strong>Amount:</strong> $85 per month</li>
+      <li><strong>Due Date:</strong> 1st of each month</li>
+      <li><strong>Preferred Payments:</strong> Direct Deposit, Zelle</li>
+      <li><strong>Other Options:</strong> Cash, Check, Credit Card</li>
+    </ul>
+  </div>
+</div>
+```

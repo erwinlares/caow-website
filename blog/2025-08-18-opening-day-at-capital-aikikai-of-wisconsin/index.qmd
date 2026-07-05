@@ -1,0 +1,31 @@
+---
+title: "Opening Day at Capital Aikikai of Wisconsin"
+description: "We are getting ready to open our doors to the public"
+image: "open-doors-day-thumb.png"
+author:
+- name: Erwin Lares
+date: 2025-08-18
+date-modified: last-modified
+categories:
+  - aikido
+  - announcements
+  - community
+status: published
+format:
+  html:
+    include-before-body: "../../_partials/blog-nav.html"
+---
+
+We’re excited to announce September 1st as the official opening day of Capital Aikikai of Wisconsin!
+
+This marks the beginning of our dojo’s journey, and we invite you to join us as part of the first-ever cohort of students on the mat. Whether you’ve practiced martial arts before or are simply curious about Aikido, this is a rare opportunity to be there from the very start and help shape the spirit of our new community.
+
+Opening day will include introductions, practice, and time to meet one another. No prior experience is required—just bring curiosity, comfortable clothing, and a willingness to move.
+
+📍 Capital Aikikai of Wisconsin 4712 S John Paul Rd, Milton WI (Greater Janesville Area)
+
+Come share in the beginning of something new. Step onto the mats with us, and be part of the foundation of Aikido in South Central Wisconsin.
+
+Send your questions to info@aikidoofwisconsin.com
+
+![Caption](open-doors-day.png){#fig-id width="500px" height="375px" fig-align="center" fig-alt="A black and blue poster announcing the opening dat of CAoW"}
