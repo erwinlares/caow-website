@@ -1,0 +1,44 @@
+---
+title: "Iaido Classes at Capital Aikikai of Wisconsin"
+description: "You can learn Iaido with us!"
+image: "rick-helmeid-thumb.png"
+author:
+- name: Erwin Lares
+date: 2025-12-16
+date-modified: last-modified
+categories:
+  - aikido
+  - announcements
+  - community
+  - personal
+status: draft
+format:
+  html:
+    include-before-body: "../../_partials/blog-nav.html"
+---
+
+
+#### Learn Iado with us!
+We’re excited to announce that Iaido –the Japanese art of drawing the sword— is now part of our offerings at Capital Aikikai of Wisconsin.
+
+Iaido practice emphasizes precision, awareness, posture, timing, and calm focus. Training is typically done through solo kata (forms), making it a great complement to Aikido for anyone interested in Japanese martial traditions and disciplined movement.## 
+
+#### Meet the instructor: Rick Helmeid
+![Caption](rick-helmeid.png){#fig-id width="500px" height="375px" fig-align="center" fig-alt="A photo of Rick Helmein in a kendo uniform"}
+
+We’re honored to welcome Rick Helmeid, sensei of the Kurotaka Kendo Club (Edgerton, WI), to lead our Iaido classes.
+
+Rick has practiced Kendo since 1989 and holds a Sandan (3rd-degree) rank with the All-United States Kendo Federation and Midwest Kendo Federation. In addition to Kendo, Rick offers instruction in Iaido and Jodo (the way of the stick). He is a founding member of the UW–Madison Kendo Club under the late Sensei Minoru Kiyota (Professor Emeritus in Buddhist Studies). Rick has competed at regional and national tournaments and has participated in numerous seminars and tournaments. He also holds a Master’s Degree in English (UW–Whitewater) with an emphasis on developing Kendo curriculum for middle and high school students.
+
+#### Who is this for?
+These classes are welcome to: • Aikido students curious about sword arts • Beginners interested in starting Japanese sword training • Experienced practitioners looking to deepen fundamentals and refine form
+
+#### What you’ll need
+If you already have equipment, bring it. If not, no worries—we’ll share guidance on what to get and when (and what can be borrowed early on). Please wear comfortable training clothes, and come ready to learn.
+
+#### Schedule and how to join
+Day/Time: Every other Tuesday from 6pm to 7:00 pm
+
+Location: Capital Aikikai of Wisconsin dojo at 4712 S John Paul Rd, Milton
+
+We’re thrilled to grow our dojo’s training opportunities and build a welcoming home for sword arts alongside Aikido. Come give Iaido a try!

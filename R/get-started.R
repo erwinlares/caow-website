@@ -26,11 +26,20 @@ NEW EVENT POST
        → creates events/YYYY-MM-DD-your-event-slug/index.qmd
      Optional arguments:
        date        publication date, e.g. \"2026-03-14\" (default: today)
-       event_date  the date the event itself happens (recommended --
-                   distinct from the publication date, and eventually
-                   used to sort/highlight the events listing)
+       event_date  the date the event itself happens -- its start date,
+                   for a multi-day event (distinct from the publication
+                   date; used to sort the events listing)
+       event_end   last day of a multi-day event, e.g. \"2026-07-12\" for
+                   a weekend gasshuku running the 11th-12th. Requires
+                   event_date to also be set. Omit entirely for a
+                   single-day event -- no event-end field gets written.
        image       path to a source photo, copied in + auto-thumbnailed
        yaml_data   path to a .yml file with an `author` key
+
+     # single-day:
+     init_event_post(\"dave-millar-seminar\", event_date = \"2026-09-12\")
+     # multi-day:
+     init_event_post(\"fall-gasshuku\", event_date = \"2026-10-10\", event_end = \"2026-10-12\")
   2. Write the event description
   3. If it has a gallery, see GALLERY IMAGES below
   4. Set status: published in the YAML front matter

@@ -204,10 +204,16 @@
     thumb_name
 }
 
-.build_template <- function(title, author_block, date, event_date, image,
+.build_template <- function(title, author_block, date, event_date, event_end, image,
                             category_lines, nav_partial, with_code) {
     event_date_line <- if (!is.null(event_date)) {
         paste0("event-date: ", event_date, "\n")
+    } else {
+        ""
+    }
+    
+    event_end_line <- if (!is.null(event_end)) {
+        paste0("event-end: ", event_end, "\n")
     } else {
         ""
     }
@@ -245,6 +251,7 @@
         author_block,
         "date: ", date, "\n",
         event_date_line,
+        event_end_line,
         "date-modified: last-modified\n",
         "categories:\n",
         category_lines, "\n",
@@ -255,7 +262,7 @@
     )
 }
 
-.scaffold_post <- function(section, slug, date, event_date, image, yaml_data,
+.scaffold_post <- function(section, slug, date, event_date = NULL, event_end = NULL, image, yaml_data,
                            categories, with_code, thumb_width, thumb_height,
                            thumb_mode, bg_color) {
     parsed   <- .resolve_slug(slug)
@@ -264,15 +271,36 @@
     date     <- .resolve_date(date, "date")
     
     event_date_resolved <- NULL
-    if (section == "events" && !is.null(event_date)) {
-        event_date_resolved <- .resolve_date(event_date, "event_date")
-        if (as.Date(event_date_resolved) < as.Date(date)) {
-            message(
-                "Note: event_date (", event_date_resolved,
-                ") is earlier than the publication date (", date,
-                "). Double check this is intentional -- it would mean the ",
-                "announcement went up after the event took place."
-            )
+    event_end_resolved  <- NULL
+    if (section == "events") {
+        if (!is.null(event_date)) {
+            event_date_resolved <- .resolve_date(event_date, "event_date")
+            if (as.Date(event_date_resolved) < as.Date(date)) {
+                message(
+                    "Note: event_date (", event_date_resolved,
+                    ") is earlier than the publication date (", date,
+                    "). Double check this is intentional -- it would mean the ",
+                    "announcement went up after the event took place."
+                )
+            }
+        }
+        
+        if (!is.null(event_end)) {
+            if (is.null(event_date)) {
+                stop(
+                    "event_end requires event_date to also be set -- a date ",
+                    "range needs both endpoints.",
+                    call. = FALSE
+                )
+            }
+            event_end_resolved <- .resolve_date(event_end, "event_end")
+            if (as.Date(event_end_resolved) < as.Date(event_date_resolved)) {
+                message(
+                    "Note: event_end (", event_end_resolved,
+                    ") is earlier than event_date (", event_date_resolved,
+                    "). Double check the range is the right way round."
+                )
+            }
         }
     }
     
@@ -307,8 +335,8 @@
         "../../_partials/events-nav.html"
     }
     
-    template <- .build_template(title, author_block, date, event_date_resolved, image_field,
-                                category_lines, nav_partial, with_code)
+    template <- .build_template(title, author_block, date, event_date_resolved, event_end_resolved,
+                                image_field, category_lines, nav_partial, with_code)
     
     writeLines(template, post_path)
     rstudioapi::navigateToFile(post_path)
@@ -351,8 +379,8 @@ init_blog_post <- function(slug, date = NULL, image = NULL, yaml_data = NULL,
                            thumb_width = 1000, thumb_height = 750,
                            thumb_mode = "cover", bg_color = "white") {
     categories <- c("aikido", "announcements", "community", "personal")
-    .scaffold_post("blog", slug, date, event_date = NULL, image, yaml_data,
-                   categories, with_code = FALSE,
+    .scaffold_post(section = "blog", slug = slug, date = date, image = image,
+                   yaml_data = yaml_data, categories = categories, with_code = FALSE,
                    thumb_width = thumb_width, thumb_height = thumb_height,
                    thumb_mode = thumb_mode, bg_color = bg_color)
 }
@@ -371,8 +399,8 @@ init_blog_post_with_code <- function(slug, date = NULL, image = NULL, yaml_data 
                                      thumb_width = 1000, thumb_height = 750,
                                      thumb_mode = "cover", bg_color = "white") {
     categories <- c("aikido", "announcements", "community", "personal")
-    .scaffold_post("blog", slug, date, event_date = NULL, image, yaml_data,
-                   categories, with_code = TRUE,
+    .scaffold_post(section = "blog", slug = slug, date = date, image = image,
+                   yaml_data = yaml_data, categories = categories, with_code = TRUE,
                    thumb_width = thumb_width, thumb_height = thumb_height,
                    thumb_mode = thumb_mode, bg_color = bg_color)
 }
@@ -386,22 +414,28 @@ init_blog_post_with_code <- function(slug, date = NULL, image = NULL, yaml_data 
 #' @param date  Publication date, e.g. "2026-03-14". Defaults to today. This
 #'   is when the announcement goes live, not when the event happens.
 #' @param event_date  Optional date the event itself takes place, e.g.
-#'   "2026-07-11". Recorded separately as `event-date:` in the front
-#'   matter so listings can eventually surface the date that matters to
-#'   a reader deciding whether to attend.
+#'   "2026-07-11" -- the start date, for a multi-day event. Recorded
+#'   separately as `event-date:` in the front matter so listings can
+#'   surface the date that matters to a reader deciding whether to attend.
+#' @param event_end  Optional last day of a multi-day event, e.g.
+#'   "2026-07-12" for a weekend gasshuku running the 11th through the
+#'   12th. Requires event_date to also be set. Written as `event-end:`
+#'   only when supplied -- single-day events have no such field.
 #' @param image  Optional path to a source photo. See init_blog_post().
 #' @param yaml_data Optional path to a .yml file containing an `author` key.
 #'
 #' @examples
 #' init_event_post("dave-millar-seminar", event_date = "2026-09-12")
+#' init_event_post("Fall Gasshuku", event_date = "2026-10-10", event_end = "2026-10-12")
 #' init_event_post("Bob Poresky Seminar", date = "2026-05-01",
 #'                  event_date = "2026-07-18", image = "~/Photos/flyer-hero.jpg")
-init_event_post <- function(slug, date = NULL, event_date = NULL, image = NULL,
+init_event_post <- function(slug, date = NULL, event_date = NULL, event_end = NULL, image = NULL,
                             yaml_data = NULL, thumb_width = 1000, thumb_height = 750,
                             thumb_mode = "cover", bg_color = "white") {
     categories <- c("seminar", "gasshuku", "workshop", "testing")
-    .scaffold_post("events", slug, date, event_date, image, yaml_data,
-                   categories, with_code = FALSE,
+    .scaffold_post(section = "events", slug = slug, date = date, event_date = event_date,
+                   event_end = event_end, image = image, yaml_data = yaml_data,
+                   categories = categories, with_code = FALSE,
                    thumb_width = thumb_width, thumb_height = thumb_height,
                    thumb_mode = thumb_mode, bg_color = bg_color)
 }
@@ -416,12 +450,13 @@ init_event_post <- function(slug, date = NULL, event_date = NULL, image = NULL,
 #'
 #' @examples
 #' init_event_post_with_code("2026-attendance-summary", event_date = "2026-11-01")
-init_event_post_with_code <- function(slug, date = NULL, event_date = NULL, image = NULL,
+init_event_post_with_code <- function(slug, date = NULL, event_date = NULL, event_end = NULL, image = NULL,
                                       yaml_data = NULL, thumb_width = 1000, thumb_height = 750,
                                       thumb_mode = "cover", bg_color = "white") {
     categories <- c("seminar", "gasshuku", "workshop", "testing")
-    .scaffold_post("events", slug, date, event_date, image, yaml_data,
-                   categories, with_code = TRUE,
+    .scaffold_post(section = "events", slug = slug, date = date, event_date = event_date,
+                   event_end = event_end, image = image, yaml_data = yaml_data,
+                   categories = categories, with_code = TRUE,
                    thumb_width = thumb_width, thumb_height = thumb_height,
                    thumb_mode = thumb_mode, bg_color = bg_color)
 }

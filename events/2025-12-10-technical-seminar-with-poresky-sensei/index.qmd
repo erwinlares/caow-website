@@ -1,0 +1,54 @@
+---
+title: "Technical Seminar with Poresky Sensei"
+subtitle: ""
+description: "One or two sentences."
+image: "technical-seminar-w-poresky-sensei-thumb.png"
+author:
+- name: Erwin Lares
+date: 2025-12-10
+event-date: 2026-01-23
+event-end: 2026-01-25
+date-modified: last-modified
+categories:
+  - seminar
+  - gasshuku
+  - workshop
+  - testing
+status: draft
+format:
+  html:
+    include-before-body: "../../_partials/events-nav.html"
+---
+
+##Technical Seminar with Poresky Sensei
+
+You are invited to our first-ever technical seminar! We’re honored to host Bob Poresky Sensei, 6th dan. This seminar is an opportunity to take a closer look at the concepts that shape our particular dialect of Aikido and to explore how they inform our movement, timing, and connection.
+
+If you’ve trained with Takeguchi Sensei, you’ve likely heard him say:
+
+• connect and set  
+• control your space  
+• expand and contract  
+• simple, not easy
+
+These aphorisms guide our approach to Aikido and highlight the qualities we emphasize on the mat. During this seminar, Poresky Sensei will help us dig into these ideas—how they operate in practice, and how they contribute to the personality of Capital Aikikai.
+
+Bob brings decades of martial arts experience and teaches across the country, sharing his Aikido not only with Aikidoists but also with students outside traditional martial arts. His instruction is practical, thoughtful, and accessible, and he has a gift for meeting practitioners where they are.
+
+We hope you’ll join us to train, explore, and see how these concepts can enrich your own practice. We believe that cross-pollination between Aikido styles helps us grow and deepens our understanding of the art we love.
+
+#### Date: January 23–25, 2026
+
+Friday: 7 pm–9 pm  
+Saturday: 10 am–12 pm, 3 pm–5 pm; Party at the dojo afterward 
+Sunday: 10 am–12 pm
+Fee:
+
+• $100 full weekend  
+• $75 Saturday  
+• $50 Friday or Sunday
+If the fee is a hardship, please reach out at info@aikidoofwisconsin.com.
+
+We have discounted rooms with late checkout at AmericInn by Wyndham of Janesville. Book your stay only here. Or call (608)371-9981 and use the group code CAOW.
+
+
