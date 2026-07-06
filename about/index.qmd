@@ -120,6 +120,44 @@ title: "About"
         </div>
         <button type="submit" class="btn-cta">Send</button>
       </form>
+      <script>
+        (function () {
+          var form = document.querySelector('form[name="contact"]');
+          var wrapper = document.querySelector('.contact-form-wrapper');
+
+          function encode(data) {
+            return Object.keys(data)
+              .map(function (key) {
+                return encodeURIComponent(key) + '=' + encodeURIComponent(data[key]);
+              })
+              .join('&');
+          }
+
+          form.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            var formData = new FormData(form);
+            var payload = {};
+            formData.forEach(function (value, key) { payload[key] = value; });
+
+            fetch(window.location.pathname, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+              body: encode(payload)
+            })
+              .then(function (response) {
+                if (!response.ok) { throw new Error('Form submission failed'); }
+                wrapper.innerHTML = '<p class="form-success">Thanks for reaching out — we\'ll get back to you soon.</p>';
+              })
+              .catch(function () {
+                wrapper.insertAdjacentHTML(
+                  'beforeend',
+                  '<p class="form-error">Something went wrong. Please email us directly at info@aikidoofwisconsin.com.</p>'
+                );
+              });
+          });
+        })();
+      </script>
     </div>
   </div>
 

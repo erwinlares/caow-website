@@ -687,3 +687,19 @@ $line-height-base:         1.7;
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+// Two new classes added to manage the forms on netlify
+
+.form-success {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  color: var(--ca-text);
+  padding: 1rem 0;
+}
+
+.form-error {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.9rem;
+  color: #b3261e;
+  margin-top: 0.75rem;
+}
