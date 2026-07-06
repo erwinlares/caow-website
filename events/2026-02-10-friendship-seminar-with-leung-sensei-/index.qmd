@@ -1,0 +1,31 @@
+---
+title: "Friendship Seminar with Leung Sensei "
+description: "CAoW is happy to host Leung Sensei for the second iteration of our Friendship seminar series"
+image: "IMG_3775-thumb.png"
+author:
+- name: Erwin Lares
+date: 2026-02-10
+event-date: 2026-03-24
+date-modified: last-modified
+categories:
+  - seminar
+  - workshop
+status: published
+format:
+  html:
+    include-before-body: "../../_partials/events-nav.html"
+---
+
+We’re thrilled to announce that Christine Leung Sensei will be leading our Friendship Seminar on Tuesday, March 24, 2026.
+
+If you attend aikido events anywhere near Milwaukee, Madison, or Chicago, you’ve likely met Christine. She’s a dedicated practitioner who consistently shows up to support the aikido community.
+
+Christine is a warm and friendly presence on the mat—and truly a pleasure to practice with. Please join us and experience what a treat it will be to have her lead class.
+
+####Meet Christine Leung Sensei 
+
+Christine has been practicing Aikido since 2014 and currently holds the rank of Shodan. She began her Aikido practice at Aikido of West Bend. She currently trains at Kenosha Aikikai under Rock Lazo Shihan and the dojo is affiliated with the United States Aikido Federation.
+
+Along with training in Aikido, Christine also practices a Wu style Tai Chi at the Chinese Kung Fu Center and is an assistant instructor in Tai Chi
+
+![Christine Leung sensei](IMG_3775.png){#fig-id width="500px" height="375px" fig-align="center" fig-alt="Christine Leung, an aikidoist posing in from of an aikido shomen"}

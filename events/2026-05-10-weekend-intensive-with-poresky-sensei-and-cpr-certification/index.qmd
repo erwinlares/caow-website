@@ -1,0 +1,70 @@
+---
+title: "Weekend Intensive with Poresky Sensei and CPR Certification"
+subtitle: ""
+description: "One or two sentences."
+image: "weekend-intensive-poresky-cpr-thumb.png"
+author:
+- name: Erwin Lares
+date: 2026-05-10
+event-date: 2026-06-12
+event-end: 2026-06-14
+date-modified: last-modified
+categories:
+  - seminar
+  - gasshuku
+  - workshop
+  - testing
+status: draft
+format:
+  html:
+    include-before-body: "../../_partials/events-nav.html"
+---
+
+
+## Weekend Intensive + CPR/BLS (No-Cost Class) + Optional Certification with Bob Poresky Sensei
+
+You’re invited to a special weekend intensive at Capital Aikikai of Wisconsin with our returning champion, Bob Poresky Sensei (6th dan).
+
+This weekend is an opportunity to train in depth in the concepts that shape our particular dialect of Aikido: set, connect, control your space, and your shape—and to add a practical skill that strengthens our dojo community: CPR/BLS training.
+
+Bob brings decades of martial arts experience and teaches across the country, sharing his Aikido not only with aikidoka but also with students outside traditional martial arts. His instruction is practical, thoughtful, and accessible, with a gift for meeting practitioners where they are.
+
+#### CPR/BLS Class (Friday — No Charge)
+In addition to Aikido training, we’re offering a CPR/BLS class at no cost on Friday, June 12 (tentative start 3:30 PM), before the evening Aikido session. This class is independent of the seminar (you can attend the seminar, the CPR class, or both), but it is strongly encouraged.
+
+Why this matters in a dojo setting: A dojo is an athletic environment—people fall, collide, overheat, and occasionally experience serious medical emergencies that have nothing to do with training (cardiac events can happen anywhere). In those moments, the most important factor is time. Having even one person on site trained to recognize an emergency, start high-quality CPR, and use an AED (if available) can bridge the gap until EMS arrives and meaningfully improve outcomes.
+
+Our main concern is that people learn these life-saving skills so practice at the dojo is safer for everybody. That’s why there is no charge to attend the CPR/BLS class.
+
+#### Optional Certification Path (Additional time with Bob)
+For those who want to become CPR/BLS certified, there will be an option to spend additional time with Bob throughout the weekend to complete the requirements for certification. (Details and logistics will be shared with participants who select this option.)
+
+#### Schedule
+Friday, June 12
+
+PR/BLS Class (no charge): tentative 5:30 PM
+Aikido: 7:00–9:00 PM
+Saturday, June 13
+
+10:00 AM–12:00 PM
+3:00–5:00 PM
+Party at the dojo afterward - food and drinks will be provided.
+Sunday, June 14
+
+10:00 AM–12:00 PM
+Fees
+(Seminar and CPR are separate—attend either or both.)
+
+Aikido Seminar • $125 full weekend • $100 Saturday only • $75 Friday or Sunday only
+
+CPR/BLS Class (Friday): $0 (no charge) Optional CPR/BLS Certification: requires additional time with Bob over the weekend (details forthcoming)
+
+If the fee is a hardship, please reach out at info@aikidoofwisconsin.com.
+
+#### Lodging
+We’ve reserved a discounted room block (with late checkout) at the AmericInn by Wyndham Janesville. Please book through the group block using this link, or call 608-371-9981 and reference group code CAOW. The discounted rate is available until one month before the event. You can reserve now and pay at the hotel.
+
+#### Registration
+We appreciate that you register ahead of time. It will help us plan better. Complete your registration using this form and pay at the dojo the date of the event.
+
+![Weeken intensive with Poresky sensei + CPR Certification](path/to/image.jpg){fig-align="center" fig-alt="A flyer in black, blue, and white with a close up picture of Poresky sensei"}
