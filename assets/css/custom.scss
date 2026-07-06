@@ -482,8 +482,18 @@ $line-height-base:         1.7;
   }
 }
 
-.hidden {
-  display: none;
+// Honeypot field for the contact form's spam protection (Netlify Forms).
+// Genuinely hidden -- positioned off-screen rather than display:none,
+// since some spam bots specifically skip display:none fields when
+// looking for honeypots to avoid. A real visitor never sees this; if
+// anything fills it in, Netlify silently rejects that submission.
+.contact-form-wrapper .hidden {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 // Student Resources — card grid
