@@ -66,15 +66,27 @@ $line-height-base:         1.7;
 @media (max-width: 575.98px) {
   .site-title-full { display: none; }
   .site-title-short { display: inline; }
+
+  // The full 2rem size is still too wide for "CAoW" alongside the logo,
+  // hamburger, and search icon on a phone-width navbar — shrink it too.
+  .navbar-title {
+    font-size: 1.1rem;
+    line-height: 1.2;
+  }
 }
 
 // Logo sizing — targets the exact classes Quarto renders
 // Quarto inserts two copies: .navbar-logo.light-content and .navbar-logo.dark-content
+// aspect-ratio + object-fit force a true circle regardless of any competing
+// width rule elsewhere in the cascade (e.g. styles.css, which loads after
+// this file and could otherwise win an !important tie on width alone).
 .navbar-brand-container img.navbar-logo {
   height: 250px !important;
-  width: auto !important;
+  width: 250px !important;
   max-height: 250px !important;
   min-height: 0 !important;
+  aspect-ratio: 1 / 1 !important;
+  object-fit: contain !important;
 }
 
 // ── CTA button ────────────────────────────────────────────────────────────────
