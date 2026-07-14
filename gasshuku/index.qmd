@@ -1,18 +1,95 @@
 ---
-title: "Gasshuku"
+title: ""
+title-block-style: none
 ---
 
-
 ```{=html}
+<style>
+.gasshuku-quickfacts {
+  background: #f4f1ea;
+  border: 1px solid #ddd6c8;
+  border-radius: 6px;
+  padding: 1.25rem 1.5rem;
+  margin-top: 1.5rem;
+}
+.gasshuku-quickfacts h3 {
+  margin-top: 0;
+  font-size: 1rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #6b6255;
+}
+.gasshuku-quickfacts dl {
+  margin: 0;
+}
+.gasshuku-quickfacts dt {
+  font-weight: bold;
+  margin-top: 0.75rem;
+}
+.gasshuku-quickfacts dt:first-child {
+  margin-top: 0;
+}
+.gasshuku-quickfacts dd {
+  margin-left: 0;
+  color: #333;
+}
+.gasshuku-register-btn {
+  display: block;
+  text-align: center;
+  margin-top: 1.25rem;
+  padding: 0.65rem 1rem;
+  background: #a3372f;
+  color: #fff !important;
+  border-radius: 4px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.gasshuku-register-btn:hover {
+  background: #8a2d26;
+}
+.gasshuku-sidebar-sticky {
+  position: sticky;
+  top: 1.5rem;
+}
+.gasshuku-jumpnav {
+  margin: 1.5rem 0 2rem;
+  padding: 0.75rem 1rem;
+  border-top: 1px solid #ddd6c8;
+  border-bottom: 1px solid #ddd6c8;
+  font-size: 0.95rem;
+}
+.gasshuku-jumpnav a {
+  margin-right: 1rem;
+}
+.gasshuku-schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.5rem 0 1.5rem;
+}
+.gasshuku-schedule-table th,
+.gasshuku-schedule-table td {
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid #ddd6c8;
+}
+.gasshuku-schedule-table th {
+  color: #6b6255;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+}
+</style>
+
 <div class="gasshuku-layout">
   <div class="gasshuku-text">
 
-    <h1>CAF Annual Gasshuku<br>Comes to the Midwest!</h1>
+    <h1>CAF Annual Gasshuku Comes to the Midwest!</h1>
 
     <p>
       The <a href="https://www.capitalaikidoblog.com"><strong>Capital Aikido Federation</strong></a>
       <strong>Annual Training Intensive</strong> is coming to the Midwest—and
-      <a href="/">Capital Aikikai of Wisconsin</a> is honored to host.
+      <a href="/">Capital Aikikai of Wisconsin</a> is honored to host,
+      <strong>September 25–27</strong>.
     </p>
 
     <p>
@@ -21,6 +98,13 @@ title: "Gasshuku"
       from across the region and beyond for a weekend of focused training, good
       energy, and shared practice.
     </p>
+
+    <nav class="gasshuku-jumpnav" aria-label="Page sections">
+      <a href="#schedule">Schedule</a>
+      <a href="#registration">Registration</a>
+      <a href="#lodging">Lodging</a>
+      <a href="#questions">Contact</a>
+    </nav>
 
     <h2>What to expect</h2>
 
@@ -41,21 +125,93 @@ title: "Gasshuku"
       Bring your curiosity, your ukemi, and your best training spirit.
     </p>
 
-    <h2>More details soon</h2>
+    <h2>Teaching roster</h2>
 
     <p>
-      We'll share the full schedule, registration info, and logistics shortly.
-      For now: <strong>save the date</strong>, spread the word, and plan to
-      join us as we bring this cornerstone CAF event to the Midwest for the
-      first time.
+      Classes will be led by senior CAF yudansha. A full roster of instructors
+      will be announced closer to the event.
+    </p>
+
+    <h2 id="schedule">Schedule</h2>
+
+    <table class="gasshuku-schedule-table">
+      <thead>
+        <tr><th>Day</th><th>Time</th><th>Session</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Friday, Sept 25</td><td>7:00–8:00 pm</td><td>Class</td></tr>
+        <tr><td></td><td>8:00–9:00 pm</td><td>Class</td></tr>
+        <tr><td>Saturday, Sept 26</td><td>10:00–11:00 am</td><td>Class</td></tr>
+        <tr><td></td><td>11:00 am–12:00 pm</td><td>Class</td></tr>
+        <tr><td></td><td>3:00–4:00 pm</td><td>Class</td></tr>
+        <tr><td></td><td>4:00–5:00 pm</td><td>Class</td></tr>
+        <tr><td>Sunday, Sept 27</td><td>10:00–11:00 am</td><td>Class</td></tr>
+        <tr><td></td><td>11:00 am–12:00 pm</td><td>Class</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Additional activities</h2>
+
+    <ul>
+      <li><strong>Friday night out</strong> — drinks and apps at a local
+      establishment after evening classes</li>
+      <li><strong>Saturday breakfast</strong> — join us early at a local
+      diner before morning classes</li>
+      <li><strong>Saturday dinner</strong> — catered at the dojo, included
+      with Saturday-only or whole-weekend registration</li>
+    </ul>
+
+    <h2 id="registration">Registration</h2>
+
+    <ul>
+      <li>Whole weekend — $150</li>
+      <li>Friday only — $75</li>
+      <li>Saturday only — $100</li>
+      <li>Sunday only — $75</li>
+    </ul>
+
+    <p>
+      <a class="gasshuku-register-btn" href="https://forms.gle/a5oWRGNUjWFPvDhu6">Register here</a>
+      Please register ahead of time if you can — it helps us plan classes,
+      food, and space, and makes sure we're ready to welcome you properly.
+    </p>
+
+    <h2 id="lodging">Lodging</h2>
+
+    <p>
+      We've reserved a discounted room block (with late checkout) at the
+      AmericInn by Wyndham Janesville. Book through our group block using
+      <a href="https://www.wyndhamhotels.com/americinn/janesville-wisconsin/americinn-janesville/rooms-rates?brand_id=AA&checkInDate=9/25/2026&checkOutDate=9/27/2026&useWRPoints=false&children=0&groupCode=CAOW&iata=00093763&adults=1&rooms=1&referringBrand=WR&cid=PS:o4yvfbuy02xlxdi&loc=ChIJ2zkiTZIXBogRwL7NH3a0-ws&sessionId=1771353691">this link</a>,
+      or call 608-371-9981 and reference group code CAOW. The discounted rate
+      is available until August 25th. You can reserve now and pay at the hotel.
+    </p>
+
+    <h2 id="questions">Questions?</h2>
+
+    <p>
+      Reach out to us at
+      <a href="mailto:info@aikidoofwisconsin.com">info@aikidoofwisconsin.com</a>.
     </p>
 
     <p><strong>We can't wait to train with you!</strong></p>
 
   </div>
   <div class="gasshuku-flyer">
-    <img src="../assets/images/gasshuku2026.png"
-         alt="CAF 2026 Gasshuku — September 25–27, Capital Aikikai of Wisconsin">
+    <div class="gasshuku-sidebar-sticky">
+      <img src="../assets/images/2026-gasshuku.png"
+           alt="CAF 2026 Gasshuku — September 25–27, Capital Aikikai of Wisconsin">
+
+      <div class="gasshuku-quickfacts">
+        <h3>At a glance</h3>
+        <dl>
+          <dt>Dates</dt>
+          <dd>September 25–27, 2026</dd>
+          <dt>Cost</dt>
+          <dd>$75–$150</dd>
+        </dl>
+        <a class="gasshuku-register-btn" href="https://forms.gle/a5oWRGNUjWFPvDhu6">Register now</a>
+      </div>
+    </div>
   </div>
 </div>
 ```
