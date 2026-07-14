@@ -67,11 +67,22 @@ $line-height-base:         1.7;
   .site-title-full { display: none; }
   .site-title-short { display: inline; }
 
-  // The full 2rem size is still too wide for "CAoW" alongside the logo,
-  // hamburger, and search icon on a phone-width navbar — shrink it too.
+  // Logo shrunk 25% on mobile frees up horizontal room, so the title
+  // can run a bit larger than our first attempt and still fit without
+  // being clipped by Bootstrap's overflow/ellipsis handling.
   .navbar-title {
-    font-size: 1.1rem;
+    font-size: 1.6rem;
     line-height: 1.2;
+    max-width: none !important;
+    overflow: visible !important;
+    text-overflow: unset !important;
+    white-space: nowrap !important;
+  }
+
+  .navbar-brand-container img.navbar-logo {
+    height: 188px !important;
+    width: 188px !important;
+    max-height: 188px !important;
   }
 }
 
