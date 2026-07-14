@@ -12,7 +12,7 @@ website:
 
   navbar:
     title: |
-    <span class="site-title-full">Capital Aikikai<br>of Wisconsin</span><span class="site-title-short">CAoW</span>
+      <span class="site-title-full">Capital Aikikai<br>of Wisconsin</span><span class="site-title-short">CAoW</span>
     logo: "assets/images/caow-logo-transparent-bg.png"
     left:
       - text: "Our Classes"
