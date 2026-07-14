@@ -67,11 +67,10 @@ $line-height-base:         1.7;
   .site-title-full { display: none; }
   .site-title-short { display: inline; }
 
-  // Logo shrunk 25% on mobile frees up horizontal room, so the title
-  // can run a bit larger than our first attempt and still fit without
-  // being clipped by Bootstrap's overflow/ellipsis handling.
+  // Logo shrunk to a size more typical of a mobile navbar, freeing up
+  // horizontal room for the title text.
   .navbar-title {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     line-height: 1.2;
     max-width: none !important;
     overflow: visible !important;
@@ -80,9 +79,9 @@ $line-height-base:         1.7;
   }
 
   .navbar-brand-container img.navbar-logo {
-    height: 188px !important;
-    width: 188px !important;
-    max-height: 188px !important;
+    height: 100px !important;
+    width: 100px !important;
+    max-height: 100px !important;
   }
 }
 
