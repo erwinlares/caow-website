@@ -63,6 +63,26 @@ $line-height-base:         1.7;
 .site-title-short { display: none; }
 .site-title-full { display: inline; }
 
+// Logo sizing — targets the exact classes Quarto renders
+// Quarto inserts two copies: .navbar-logo.light-content and .navbar-logo.dark-content
+// aspect-ratio + object-fit force a true circle regardless of any competing
+// width rule elsewhere in the cascade (e.g. styles.css, which loads after
+// this file and could otherwise win an !important tie on width alone).
+//
+// IMPORTANT: this base rule must come BEFORE the mobile @media block below.
+// Both rules use !important on the same selector, so when specificity ties,
+// source order decides — not whether a rule sits inside a media query. If
+// this base rule were placed after the mobile override, it would win on
+// every screen size, including mobile, and silently undo the override.
+.navbar-brand-container img.navbar-logo {
+  height: 250px !important;
+  width: 250px !important;
+  max-height: 250px !important;
+  min-height: 0 !important;
+  aspect-ratio: 1 / 1 !important;
+  object-fit: contain !important;
+}
+
 @media (max-width: 575.98px) {
   .site-title-full { display: none; }
   .site-title-short { display: inline; }
@@ -83,20 +103,6 @@ $line-height-base:         1.7;
     width: 100px !important;
     max-height: 100px !important;
   }
-}
-
-// Logo sizing — targets the exact classes Quarto renders
-// Quarto inserts two copies: .navbar-logo.light-content and .navbar-logo.dark-content
-// aspect-ratio + object-fit force a true circle regardless of any competing
-// width rule elsewhere in the cascade (e.g. styles.css, which loads after
-// this file and could otherwise win an !important tie on width alone).
-.navbar-brand-container img.navbar-logo {
-  height: 250px !important;
-  width: 250px !important;
-  max-height: 250px !important;
-  min-height: 0 !important;
-  aspect-ratio: 1 / 1 !important;
-  object-fit: contain !important;
 }
 
 // ── CTA button ────────────────────────────────────────────────────────────────
