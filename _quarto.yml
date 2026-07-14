@@ -6,11 +6,12 @@ execute:
   freeze: true
 
 website:
-  title: "Capital Aikikai<br>of Wisconsin"
+  title: "Capital Aikikai of Wisconsin"
   favicon: assets/images/favicon.png
   page-navigation: true
 
   navbar:
+    title: "Capital Aikikai<br>of Wisconsin"
     logo: "assets/images/caow-logo-transparent-bg.png"
     left:
       - text: "Our Classes"
